@@ -1,0 +1,27 @@
+query($characterId: Int!,$locationId: Int!,$episodeId:Int!)
+{
+  character(characterId:$characterId)
+  {
+    name
+    id
+    
+  }
+  location(locationId:$locationId)
+  {
+    dimension
+    name
+  }
+  episode(episodeId:$episodeId)
+  {
+    name
+    episode
+  }
+}
+
+#This is a query variables file
+{
+  "characterId": 24907,
+  "locationId": 33742
+}
+
+# This is the Output

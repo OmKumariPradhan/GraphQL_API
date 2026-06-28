@@ -1,0 +1,30 @@
+mutation
+{
+  createLocation(location:{name:"Omnil",type:"South", dimension:"12"})
+  {
+    id
+  }
+  createCharacter(character:{name:"Goma",type:"Northeast",status:"create", species:"A",gender:"Female",image:"png",originId:33741,locationId:33741}) 
+  {
+    id
+  }
+  createEpisode(episode:{name:"OmKumari", air_date:"28/06/2026", episode:"Ep 1"})
+  {
+    id
+  }
+}
+
+##This is the Output
+{
+  "data": {
+    "createLocation": {
+      "id": 33744
+    },
+    "createCharacter": {
+      "id": 24909
+    },
+    "createEpisode": {
+      "id": 22800
+    }
+  }
+}
