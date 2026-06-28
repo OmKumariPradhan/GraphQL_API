@@ -25,3 +25,19 @@ query($characterId: Int!,$locationId: Int!,$episodeId:Int!)
 }
 
 # This is the Output
+{
+  "data": {
+    "character": {
+      "name": "Goma",
+      "id": 24907
+    },
+    "location": {
+      "dimension": "12",
+      "name": "Omnil"
+    },
+    "episode": {
+      "name": "OmKumari",
+      "episode": "Ep 1"
+    }
+  }
+}
