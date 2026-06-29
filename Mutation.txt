@@ -12,6 +12,10 @@ mutation
   {
     id
   }
+  deleteEpisodes(episodeIds:[22804])
+  {
+    episodesDeleted
+  }
 }
 
 ##This is the Output
@@ -25,6 +29,10 @@ mutation
     },
     "createEpisode": {
       "id": 22800
+    },
+    "deleteEpisodes": {
+      "episodesDeleted": 0
     }
+ 
   }
 }

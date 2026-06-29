@@ -16,12 +16,14 @@ query($characterId: Int!,$locationId: Int!,$episodeId:Int!)
     name
     episode
   }
+  
 }
 
 #This is a query variables file
 {
   "characterId": 24907,
   "locationId": 33742
+  "episodeId":22804
 }
 
 # This is the Output
